@@ -1,4 +1,4 @@
-// Flamingo Legs Racing — Sam Romick Motorcycle Racing Hub
+﻿// Flamingo Legs Racing — Sam Romick Motorcycle Racing Hub
 // Comprehensive results across MYLAPS Speedhive (AFM Road Racing) and MotoTally (Off-Road / Desert / Hare Scrambles)
 
 const ALL_RACE_RESULTS = [
@@ -280,7 +280,7 @@ const VIDEOS = [
     track: "Buttonwillow (The Circuit)",
     discipline: "Road Racing",
     date: "Sep 2026",
-    thumb: "assets/photos/afm-r4-bw-circuit-f3.jpg",
+    thumb: "https://i.ytimg.com/vi/B4Bh7xgIk_I/hqdefault.jpg",
     desc: "Full onboard race footage from AFM Round 4 at Buttonwillow's new circuit layout in Formula 3."
   },
   {
@@ -289,7 +289,7 @@ const VIDEOS = [
     track: "Virginia City, Nevada",
     discipline: "Desert / Off-Road",
     date: "Apr 2026",
-    thumb: "assets/photos/vcgp-virginia-city-start.jpg",
+    thumb: "https://i.ytimg.com/vi/B9gX1GhATls/hqdefault.jpg",
     desc: "Bar-to-bar chaos through historic Virginia City streets down into steep desert mining ravines."
   },
   {
@@ -298,7 +298,7 @@ const VIDEOS = [
     track: "Mojave Desert (Cal City)",
     discipline: "Desert 100-Miler",
     date: "Apr 2026",
-    thumb: "assets/photos/biltwell-100-desert-action.jpg",
+    thumb: "https://i.ytimg.com/vi/zPy-Z8b2SMM/hqdefault.jpg",
     desc: "Full-gas throttle control across rocky whoops, silt washes, and high-speed dry lakebeds."
   },
   {
@@ -307,7 +307,7 @@ const VIDEOS = [
     track: "Mendocino National Forest",
     discipline: "Enduro / Trail",
     date: "May 2026",
-    thumb: "assets/photos/sheetiron-300-trail-dr650.jpg",
+    thumb: "https://i.ytimg.com/vi/EvPaMUZcnnE/hqdefault.jpg",
     desc: "Tackling the most punishing rock steps, ridge singletracks, and mud ascents on a heavyweight DR650."
   },
   {
@@ -316,7 +316,7 @@ const VIDEOS = [
     track: "Buttonwillow (The Circuit)",
     discipline: "Road Racing",
     date: "Sep 2026",
-    thumb: "assets/photos/afm-r4-bw-rearcam.jpg",
+    thumb: "https://i.ytimg.com/vi/0SRb_x4hMrY/hqdefault.jpg",
     desc: "Tail-section rear-facing perspective showing apex speeds and late-braking battles."
   },
   {
@@ -325,7 +325,7 @@ const VIDEOS = [
     track: "Thunderhill West",
     discipline: "Track Battle",
     date: "Oct 2026",
-    thumb: "assets/photos/thill-west-sv650-vs-bigbikes.jpg",
+    thumb: "https://i.ytimg.com/vi/CuZw8ZfQ3OU/hqdefault.jpg",
     desc: "Carrying massive corner speed on the Suzuki SV650 to reel in 600cc and 1000cc superbikes."
   },
   {
@@ -334,7 +334,7 @@ const VIDEOS = [
     track: "Sonoma Raceway",
     discipline: "Road Racing",
     date: "AFM Classic",
-    thumb: "assets/photos/sonoma-fz07-vs-sv650.jpg",
+    thumb: "https://i.ytimg.com/vi/NXTrmSVQfj4/hqdefault.jpg",
     desc: "Nose-to-tail lightweight twin warfare through Sonoma Raceway's technical elevation changes."
   },
   {
@@ -343,7 +343,7 @@ const VIDEOS = [
     track: "AFM Championship",
     discipline: "Road Racing Win",
     date: "AFM Feature",
-    thumb: "assets/photos/sv650-onboard-race-win.jpg",
+    thumb: "https://i.ytimg.com/vi/EcwRxgxEXaI/hqdefault.jpg",
     desc: "From launch to the checkered flag: taking 1st place onboard the Suzuki SV650."
   }
 ];
@@ -354,7 +354,7 @@ const PHOTOS = [
     id: "photo-ig-1",
     title: "Virginia City Grand Prix Desert Singletrack Attack",
     caption: "Winding down the historic mining mountain trails of Virginia City, NV during the VCGP.",
-    src: "assets/photos/vcgp-virginia-city-start.jpg",
+    src: "https://i.ytimg.com/vi/B9gX1GhATls/hqdefault.jpg",
     category: "offroad",
     source: "Instagram @flamingolegs",
     igHandle: "@flamingolegs",
@@ -364,7 +364,7 @@ const PHOTOS = [
     id: "photo-ig-2",
     title: "Biltwell 100 Mojave Desert Sand Wash",
     caption: "Pinned through the sand washes and whoops of California City in the Biltwell 100-mile race.",
-    src: "assets/photos/biltwell-100-desert-action.jpg",
+    src: "https://i.ytimg.com/vi/zPy-Z8b2SMM/hqdefault.jpg",
     category: "offroad",
     source: "Instagram @flamingolegs",
     igHandle: "@flamingolegs",
@@ -374,7 +374,7 @@ const PHOTOS = [
     id: "photo-ig-3",
     title: "Sheetiron 300 Redwoods & Ridge Climb",
     caption: "Mendocino forest hard splits on the Suzuki DR650 — pure Northern California enduro terrain.",
-    src: "assets/photos/sheetiron-300-trail-dr650.jpg",
+    src: "https://i.ytimg.com/vi/EvPaMUZcnnE/hqdefault.jpg",
     category: "offroad",
     source: "Instagram @flamingolegs",
     igHandle: "@flamingolegs",
@@ -384,7 +384,7 @@ const PHOTOS = [
     id: "photo-ig-4",
     title: "Carnegie SVRA Steep Hillclimb Descent",
     caption: "Testing balance, braking, and line choice on the steep hill climbs of Carnegie SVRA.",
-    src: "assets/photos/carnegie-hillclimb-dirt.jpg",
+    src: "https://i.ytimg.com/vi/gXb7R78VG_Q/hqdefault.jpg",
     category: "offroad",
     source: "Instagram @flamingolegs",
     igHandle: "@flamingolegs",
@@ -394,7 +394,7 @@ const PHOTOS = [
     id: "photo-ig-5",
     title: "Foresthill OHV Trail 5 Singletrack Flow",
     caption: "High Sierra singletrack cross-training between asphalt AFM race weekends.",
-    src: "assets/photos/foresthill-trail5-singletrack.jpg",
+    src: "https://i.ytimg.com/vi/AybdfhtYB_o/hqdefault.jpg",
     category: "offroad",
     source: "Instagram @flamingolegs",
     igHandle: "@flamingolegs",
@@ -404,7 +404,7 @@ const PHOTOS = [
     id: "photo-ig-6",
     title: "Biltwell 100 Silty Hill Battle",
     caption: "Traffic in the deep silt ruts during Lap 2 at the Biltwell 100 desert race.",
-    src: "assets/photos/biltwell-100-silty-hill.jpg",
+    src: "https://i.ytimg.com/vi/gc8mog53HzE/hqdefault.jpg",
     category: "offroad",
     source: "Instagram @flamingolegs",
     igHandle: "@flamingolegs",
@@ -416,7 +416,7 @@ const PHOTOS = [
     id: "photo-rr-1",
     title: "Buttonwillow 'The Circuit' Curbing Attack (AFM R4)",
     caption: "Max lean angle over the apex curbing during AFM Round 4 Formula 3.",
-    src: "assets/photos/afm-r4-bw-circuit-f3.jpg",
+    src: "https://i.ytimg.com/vi/B4Bh7xgIk_I/hqdefault.jpg",
     category: "road",
     source: "Flamingo Legs Racing",
     igHandle: "@flamingolegs",
@@ -426,7 +426,7 @@ const PHOTOS = [
     id: "photo-rr-2",
     title: "Sonoma Raceway 700 Twins Lead Pack",
     caption: "Charging into Sonoma's technical uphill esses battling front-running twins.",
-    src: "assets/photos/sonoma-fz07-vs-sv650.jpg",
+    src: "https://i.ytimg.com/vi/NXTrmSVQfj4/hqdefault.jpg",
     category: "road",
     source: "Flamingo Legs Racing",
     igHandle: "@flamingolegs",
@@ -436,7 +436,7 @@ const PHOTOS = [
     id: "photo-rr-3",
     title: "AFM 700 Production Multi-Angle Battle",
     caption: "Bar-to-bar lightweight racing with zero margin for error.",
-    src: "assets/photos/afm-700-prod-multicam.jpg",
+    src: "https://i.ytimg.com/vi/Vud_ZtwFFKk/hqdefault.jpg",
     category: "road",
     source: "Flamingo Legs Racing",
     igHandle: "@flamingolegs",
@@ -446,7 +446,7 @@ const PHOTOS = [
     id: "photo-rr-4",
     title: "P1 Checkered Flag Finish",
     caption: "Tucked behind the windscreen taking an AFM 1st place feature win.",
-    src: "assets/photos/sv650-onboard-race-win.jpg",
+    src: "https://i.ytimg.com/vi/EcwRxgxEXaI/hqdefault.jpg",
     category: "road",
     source: "Flamingo Legs Racing",
     igHandle: "@flamingolegs",
@@ -456,7 +456,7 @@ const PHOTOS = [
     id: "photo-rr-5",
     title: "Thunderhill West 10-Turn Big Bike Hunt",
     caption: "Carrying corner momentum to reel in literbikes on Thunderhill West.",
-    src: "assets/photos/thill-west-sv650-vs-bigbikes.jpg",
+    src: "https://i.ytimg.com/vi/CuZw8ZfQ3OU/hqdefault.jpg",
     category: "road",
     source: "Flamingo Legs Racing",
     igHandle: "@flamingolegs",
@@ -466,7 +466,7 @@ const PHOTOS = [
     id: "photo-rr-6",
     title: "Tail-Cam Telemetry Perspective",
     caption: "Buttonwillow rear cam looking back across the pack.",
-    src: "assets/photos/afm-r4-bw-rearcam.jpg",
+    src: "https://i.ytimg.com/vi/0SRb_x4hMrY/hqdefault.jpg",
     category: "road",
     source: "Flamingo Legs Racing",
     igHandle: "@flamingolegs",
